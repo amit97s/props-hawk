@@ -25,7 +25,7 @@ function PropertyLoc() {
     <div className="bg-[#e0ecfc] flex justify-center w-full mt-20 lg:mt-32 px-4">
       <div className="w-full max-w-screen-xl border py-8 lg:py-10 px-4 lg:px-0">
         <div className="flex flex-col items-center gap-2 lg:flex-row lg:gap-3 justify-center">
-          <img src={logo} alt="" className="w-10 lg:w-auto" />
+          <img src={logo} alt="" className="w-10 lg:w-40 mix-blend-darken" />
           <p className="text-lg lg:text-xl font-medium">Locations</p>
         </div>
         <h1 className="text-center text-2xl lg:text-4xl font-bold mt-4">

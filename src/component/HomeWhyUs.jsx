@@ -4,10 +4,10 @@ import { logo, meeting, whyusHome } from "../assets/images";
 
 function HomeWhyUs() {
   return (
-    <div className="w-full max-w-screen-xl mx-auto h-auto mt-20 lg:mt-40 flex flex-col lg:flex-row">
+    <div className="w-full max-w-screen-xl mx-auto h-auto mt-20 lg:mt-40 flex bg-[#e2e8f0] p-10 flex-col lg:flex-row">
       <div className="w-full lg:w-1/2 h-auto p-6 lg:p-10 flex flex-col gap-6 lg:gap-10">
         <div className="flex items-center gap-3 lg:gap-4">
-          <img src={logo} alt="Logo" className="w-8 lg:w-12 h-auto" />
+          <img src={logo} alt="Logo" className="w-8 lg:w-12 h-auto mix-blend-darken" />
           <p className="text-lg lg:text-xl font-semibold">Why Choosing Us</p>
         </div>
         <h1 className="text-2xl lg:text-4xl font-bold">

@@ -15,7 +15,7 @@ function Header() {
     <div className='w-full h-24 bg-slate-200'>
       <div className='max-w-screen-xl h-full bg-slate-200 border flex justify-between px-2 s:px-10 items-center'>
         <div>
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" className='w-32 mix-blend-darken'/>
         </div>
         <div className='lg:hidden'>
           {menuOpen ? (

@@ -9,7 +9,7 @@ body{
 
 .first {
     min-height: 560px;
-    background-image: url("http://localhost:5173/src/assets/images/PropHomeAbout.jpg");
+    background-image: url("/assets/images/PropHomeAbout.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

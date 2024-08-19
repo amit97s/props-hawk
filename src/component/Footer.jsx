@@ -15,7 +15,7 @@ function Footer() {
       <div className="w-full rounded-xl bg-blue-900 flex flex-wrap justify-between p-6 sm:p-8 gap-6">
         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-4">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="Logo" className="w-8 h-8 sm:w-10 sm:h-10" />
+            <img src={logo} alt="Logo" className="w-8 h-8 sm:w-10 sm:h-10 mix-blend-multiply" />
             <p className="text-lg font-semibold">PropsHawk</p>
           </div>
           <p className="text-xs sm:text-sm">

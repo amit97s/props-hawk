@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.jpg";
 import heroWallpaper from "./heroWallpaper.jpg";
 import propertyImg1 from "./propertyImg1.jpg";
 import propertyimg2 from "./propertyimg2.jpg";

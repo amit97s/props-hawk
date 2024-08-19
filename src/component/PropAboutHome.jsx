@@ -30,9 +30,9 @@ function PropAboutHome() {
             <div className='w-full lg:w-1/2 h-auto'>
                 <img src={PropHomeAbout} alt="PropHomeAbout" className='object-cover w-full h-full' />
             </div>
-            <div className='w-full lg:w-1/2 h-auto flex flex-col gap-4 px-4 lg:px-10'>
+            <div className='w-full lg:w-1/2 h-auto flex flex-col gap-4 px-4 bg-[#e2e8f0] lg:px-10'>
                 <div className='flex items-center gap-3'>
-                    <img src={logo} alt="Logo" className='w-12 h-12' />
+                    <img src={logo} alt="Logo" className='w-16 h-16 bg-transparent mix-blend-darken'/>
                     <p className='text-lg lg:text-xl font-semibold'>About Jivux</p>
                 </div>
                 <h1 className='text-3xl lg:text-4xl font-extrabold'>
