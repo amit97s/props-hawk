@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+    font-family: "Inter", sans-serif;
+}
+
+
+.first {
+    min-height: 560px;
+    background-image: url("http://localhost:5173/src/assets/images/PropHomeAbout.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+  }
+  
+  .first .container {
+    align-content: stretch;
+    margin: auto;
+    height: 560px;
+  }
+  
+  @media only screen and (min-width: 1060px) {
+    .first .bottom {
+      display: flex;
+      flex-wrap: nowrap;
+      column-gap: 20px;
+      row-gap: 20px;
+    }
+  }
+.aboutWallpaper{
+  background-image: url('./assets/images/AboutWallpaper.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
