@@ -36,3 +36,6 @@ body{
   background-position: center;
   background-size: cover;
 }
+.backgroundImg{
+  background-image:url("./assets/images/signup.jpg") !important;
+}

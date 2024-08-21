@@ -31,18 +31,57 @@ import testimonial6 from "./testimonial6.jpg";
 import testimonial7 from "./testimonial7.jpg";
 import testimonial8 from "./testimonial8.jpg";
 import testimonial9 from "./testimonial9.jpg";
-import logo1 from './logo1.jpeg'
-import logo2 from './cpl2.png'
-import logo3 from './cpl3.png'
-import logo4 from './cpl4.png'
-import logo5 from './cpl5.jpeg'
+import logo1 from "./logo1.jpeg";
+import logo2 from "./cpl2.png";
+import logo3 from "./cpl3.png";
+import logo4 from "./cpl4.png";
+import logo5 from "./cpl5.jpeg";
+import signup from "./signup.jpg";
+import contactImg from "./contactImg.jpg";
+import customProp from "../images/New folder/customProp.jpg";
+import despute from "../images/New folder/despute.jpg";
+import fresh from "../images/New folder/fresh.jpg";
+import handOnHouse from "../images/New folder/handOnHouse.jpg";
+import investment from "../images/New folder/house-investment.avif";
+import legal from "../images/New folder/legal.jpg";
+import propertyManagement from "../images/New folder/propertyManagement.jpg";
+import secureProp from "../images/New folder/secureProp.jpg";
+import value from "../images/New folder/value.jpg";
+import delhi from '../images/New folder/delhi.jpg'
+import delhi2 from '../images/New folder/delhi2.jpg'
+import delhi3 from '../images/New folder/delhi3.jpg'
+import kolkata from '../images/New folder/kolkata.jpg'
+import kolkata2 from '../images/New folder/kolkata2.jpg'
+import kolkata3 from '../images/New folder/kolkata3.jpg'
+import noida from '../images/New folder/noida.jpg'
+import noida2 from '../images/New folder/noida2.jpg'
+import noida3 from '../images/New folder/noida3.jpg'
+
+import rentmanagement from "../images/New folder/rentmanagement.jpg";
 export {
+  delhi,delhi2,delhi3,noida,noida2,noida3,kolkata,kolkata2,kolkata3,
+  customProp,
+  despute,
+  fresh,
+  handOnHouse,
+  investment,
+  legal,
+  propertyManagement,
+  secureProp,
+  value,
+  rentmanagement,
   logo,
+  contactImg,
   heroWallpaper,
   propertyImg1,
-  logo1,logo2,logo3,logo4,logo5,
+  logo1,
+  logo2,
+  logo3,
+  logo4,
+  logo5,
   AboutWallpaper,
   propertyimg2,
+  signup,
   meeting,
   whyusHome,
   propertyimg3,
@@ -61,5 +100,14 @@ export {
   AboutGal5,
   AboutGal6,
   AboutGal7,
-  AboutGal8,testimonial1,testimonial2,testimonial3,testimonial4,testimonial5,testimonial6,testimonial7,testimonial8,testimonial9
+  AboutGal8,
+  testimonial1,
+  testimonial2,
+  testimonial3,
+  testimonial4,
+  testimonial5,
+  testimonial6,
+  testimonial7,
+  testimonial8,
+  testimonial9,
 };

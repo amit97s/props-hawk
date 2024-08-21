@@ -22,7 +22,7 @@ function PropertyLoc() {
   ];
 
   return (
-    <div className="bg-[#e0ecfc] flex justify-center w-full mt-20 lg:mt-32 px-4">
+    <div className="bg-slate-50 flex justify-center w-full mt-20 lg:mt-32 px-4">
       <div className="w-full max-w-screen-xl border py-8 lg:py-10 px-4 lg:px-0">
         <div className="flex flex-col items-center gap-2 lg:flex-row lg:gap-3 justify-center">
           <img src={logo} alt="" className="w-10 lg:w-40 mix-blend-darken" />

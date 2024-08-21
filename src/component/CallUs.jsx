@@ -3,7 +3,7 @@ import { MdPhoneCallback } from "react-icons/md";
 
 function CallUs() {
   return (
-    <div className="flex flex-col lg:flex-row bg-[#e0ecfc] w-full max-w-screen-xl gap-6 lg:gap-10 px-6 lg:px-10 mx-auto rounded-xl items-center mt-20 lg:mt-48 py-6 lg:py-10">
+    <div className="flex flex-col lg:flex-row bg-slate-50 w-full max-w-screen-xl gap-6 lg:gap-10 px-6 lg:px-10 mx-auto rounded-xl items-center mt-20 lg:mt-48 py-6 lg:py-10">
       <div className="w-full lg:w-2/3 text-center lg:text-left">
         <h1 className="text-2xl lg:text-4xl font-bold mb-4">
           Need Help? Talk to Our Expert.
