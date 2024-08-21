@@ -20,7 +20,8 @@ function App() {
         <Route path='/login' element={<LoginForm/>}/>
         <Route path='/sign-up' element={<Login/>}/>
         <Route path='/location/:place' element={<Locations/>}/>       
-         <Route path="/online/:service" element={<OnlineServices />} />
+         {/* <Route path="/online/:service" element={<OnlineServices />} /> */}
+         <Route path="/online/:serviceId" element={<OnlineServices/>} />
         <Route path='*' element={<PageNotFound/>}/>
         <Route path='/services' element={<OurServices/>}/>
       </Routes>

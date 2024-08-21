@@ -7,7 +7,7 @@ import { FaAngleDown, FaAngleUp } from "react-icons/fa";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [dropdownOpen, setDropdownOpen] = useState({ financial: false, online: false, location: false });
+  const [dropdownOpen, setDropdownOpen] = useState({ online: false, financial: false, location: false });
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -42,29 +42,6 @@ function Header() {
             <NavLink to='/about' className='cursor-pointer hover:text-blue-500 hover:underline text-sm'>About</NavLink>
             <li
               className='relative cursor-pointer hover:text-blue-500 text-sm flex items-center gap-1'
-              onMouseEnter={() => handleDropdownEnter('financial')}
-              onMouseLeave={() => handleDropdownLeave('financial')}
-            >
-              <span>Services</span> 
-              {dropdownOpen.financial ? <FaAngleUp /> : <FaAngleDown />}
-              <ul
-                className={`absolute top-full left-0 mt-2 w-48 bg-white border border-gray-50 shadow-lg z-10 transition-opacity duration-300 ${dropdownOpen.financial ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-                onMouseEnter={() => handleDropdownEnter('financial')}
-                onMouseLeave={() => handleDropdownLeave('financial')}
-              >
-                <li><NavLink to='/financial/service1' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Comprehensive property management</NavLink></li>
-                <li><NavLink to='/financial/service2' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Custom property management</NavLink></li>
-                <li><NavLink to='/financial/service3' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Property management services</NavLink></li>
-                <li><NavLink to='/financial/service4' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Security of Property</NavLink></li>
-                <li><NavLink to='/financial/service5' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Rent management</NavLink></li>
-                <li><NavLink to='/financial/service6' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Legal services</NavLink></li>
-                <li><NavLink to='/financial/service7' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Property dispute redressal</NavLink></li>
-                <li><NavLink to='/financial/service8' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Fresh properties</NavLink></li>
-                <li><NavLink to='/financial/service9' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Property Valuation</NavLink></li>
-              </ul>
-            </li>
-            <li
-              className='relative cursor-pointer hover:text-blue-500 text-sm flex items-center gap-1'
               onMouseEnter={() => handleDropdownEnter('online')}
               onMouseLeave={() => handleDropdownLeave('online')}
             >
@@ -75,28 +52,30 @@ function Header() {
                 onMouseEnter={() => handleDropdownEnter('online')}
                 onMouseLeave={() => handleDropdownLeave('online')}
               >
-                <li><NavLink to='/online/service1' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Online rent agreement</NavLink></li>
-                <li><NavLink to='/online/service2' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Online account status</NavLink></li>
-                <li><NavLink to='/online/service3' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Digital documentation</NavLink></li>
-                <li><NavLink to='/online/service4' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Virtual property tours</NavLink></li>
+                <li><NavLink to='/online/service1' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Comprehensive property management</NavLink></li>
+                <li><NavLink to='/online/service2' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Custom property management</NavLink></li>
+                <li><NavLink to='/online/service3' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Property management services</NavLink></li>
+                <li><NavLink to='/online/service4' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Security of property</NavLink></li>
+                <li><NavLink to='/online/service5' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Rent management</NavLink></li>
+                <li><NavLink to='/online/service6' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Legal services</NavLink></li>
+                <li><NavLink to='/online/service7' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Property dispute redressal</NavLink></li>
+                <li><NavLink to='/online/service8' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Fresh properties</NavLink></li>
               </ul>
             </li>
             <li
               className='relative cursor-pointer hover:text-blue-500 text-sm flex items-center gap-1'
-              onMouseEnter={() => handleDropdownEnter('online')}
-              onMouseLeave={() => handleDropdownLeave('online')}
+              onMouseEnter={() => handleDropdownEnter('financial')}
+              onMouseLeave={() => handleDropdownLeave('financial')}
             >
               <span>Financial Services</span> 
-              {dropdownOpen.online ? <FaAngleUp /> : <FaAngleDown />}
+              {dropdownOpen.financial ? <FaAngleUp /> : <FaAngleDown />}
               <ul
-                className={`absolute top-full left-0 mt-2 w-48 bg-white border border-gray-50 shadow-lg z-10 transition-opacity duration-300 ${dropdownOpen.online ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-                onMouseEnter={() => handleDropdownEnter('online')}
-                onMouseLeave={() => handleDropdownLeave('online')}
+                className={`absolute top-full left-0 mt-2 w-48 bg-white border border-gray-50 shadow-lg z-10 transition-opacity duration-300 ${dropdownOpen.financial ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+                onMouseEnter={() => handleDropdownEnter('financial')}
+                onMouseLeave={() => handleDropdownLeave('financial')}
               >
-                <li><NavLink to='/online/rent-agreement' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Online rent agreement</NavLink></li>
-                <li><NavLink to='/online/account-status' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Online account status</NavLink></li>
-                <li><NavLink to='/online/digital-docs' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Digital documentation</NavLink></li>
-                <li><NavLink to='/online/virtual-tours' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Virtual property tours</NavLink></li>
+                <li><NavLink to='/financial/service1' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Commercial finance</NavLink></li>
+                <li><NavLink to='/financial/service2' className='block px-4 py-2 hover:bg-gray-100 text-sm'>Project finance</NavLink></li>
               </ul>
             </li>
             <li
