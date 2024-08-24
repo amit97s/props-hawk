@@ -9,6 +9,8 @@ import LoginForm from './pages/LoginForm';
 import Locations from './pages/Locations';
 import OnlineServices from './pages/OnlineServices';
 import OurServices from './pages/OurServices';
+import FinancialServices from './pages/FinancialServices';
+import RentAgreement from './pages/RentAgreement';
 function App() {
   return (
     <div>
@@ -19,11 +21,14 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/login' element={<LoginForm/>}/>
         <Route path='/sign-up' element={<Login/>}/>
-        <Route path='/location/:place' element={<Locations/>}/>       
          {/* <Route path="/online/:service" element={<OnlineServices />} /> */}
          <Route path="/online/:serviceId" element={<OnlineServices/>} />
+         {/* <Route path="/commercial/:finance" element={<FinancialServices/>} /> */}
+         <Route path="/financial/:finance" element={<FinancialServices />} />
+        <Route path='/location/:place' element={<Locations/>}/>       
         <Route path='*' element={<PageNotFound/>}/>
         <Route path='/services' element={<OurServices/>}/>
+        <Route path='/rent-agreement' element ={<RentAgreement/>}/>
       </Routes>
       </BrowserRouter>
     </div>

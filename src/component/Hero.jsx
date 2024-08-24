@@ -9,7 +9,7 @@ function Hero() {
         <div className="container flex flex-wrap justify-center items-center">
           <div className="top">
             <h1 className="text-lg sm:text-xl text-white">Welcome to Prophawks</h1>
-            <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-extrabold">
+            <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-extrabold mb-14">
               Streamlining Property Management
               <br /> Leveraging Technology for Efficiency
             </p>

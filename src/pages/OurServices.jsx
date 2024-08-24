@@ -11,6 +11,7 @@ import {
   secureProp,
   value,
 } from "../assets/images";
+import { NavLink } from "react-router-dom";
 
 function OurServices() {
   return (
@@ -36,8 +37,8 @@ function OurServices() {
                 owners and tenants. Trust Prophawk to manage your property with
                 professionalism and care.
               </p>
-              <button className="px-4 py-2 bg-blue-400 rounded-md text-white m-4 hover:bg-red-500 hover:scale-105 transition-all">
-                Load more
+              <button className="px-4 py-2 bg-blue-400 rounded-md text-white m-4 hover:bg-red-500 hover:scale-105 transition-all" >
+               <NavLink to={'/online/service1'}>learn more</NavLink>
               </button>
             </div>
             <div className="w-full md:w-1/2">
@@ -72,7 +73,7 @@ function OurServices() {
                 and satisfaction.
               </p>
               <button className="px-4 py-2 bg-blue-400 rounded-md text-white m-4 hover:bg-red-500 hover:scale-105 transition-all">
-                Load more
+              <NavLink to={'/online/service2'}>learn more</NavLink>
               </button>
             </div>
           </div>
@@ -93,7 +94,7 @@ function OurServices() {
                 in expert hands.
               </p>
               <button className="px-4 py-2 bg-blue-400 rounded-md text-white m-4 hover:bg-red-500 hover:scale-105 transition-all">
-                Load more
+              <NavLink to={'/online/service3'}>learn more</NavLink>
               </button>
             </div>
             <div className="w-full md:w-1/2">
@@ -127,7 +128,7 @@ function OurServices() {
                 investments and possessions are in safe hands.
               </p>
               <button className="px-4 py-2 bg-blue-400 rounded-md text-white m-4 hover:bg-red-500 hover:scale-105 transition-all">
-                Load more
+              <NavLink to={'/online/service4'}>learn more</NavLink>
               </button>
             </div>
           </div>
@@ -147,7 +148,7 @@ function OurServices() {
                 a smooth renting process backed by reliable support.
               </p>
               <button className="px-4 py-2 bg-blue-400 rounded-md text-white m-4 hover:bg-red-500 hover:scale-105 transition-all">
-                Load more
+              <NavLink to={'/online/service5'}>learn more</NavLink>
               </button>
             </div>
             <div className="w-full md:w-1/2">
@@ -182,7 +183,7 @@ function OurServices() {
                 business to thrive.
               </p>
               <button className="px-4 py-2 bg-blue-400 rounded-md text-white m-4 hover:bg-red-500 hover:scale-105 transition-all">
-                Load more
+              <NavLink to={'/online/service6'}>learn more</NavLink>
               </button>
             </div>
           </div>
@@ -203,7 +204,7 @@ function OurServices() {
                 satisfactory outcomes for all parties involved.
               </p>
               <button className="px-4 py-2 bg-blue-400 rounded-md text-white m-4 hover:bg-red-500 hover:scale-105 transition-all">
-                Load more
+              <NavLink to={'/online/service7'}>learn more</NavLink>
               </button>
             </div>
             <div className="w-full md:w-1/2">
@@ -238,7 +239,7 @@ function OurServices() {
                 rewarding. Explore freshness with Prophawk.
               </p>
               <button className="px-4 py-2 bg-blue-400 rounded-md text-white m-4 hover:bg-red-500 hover:scale-105 transition-all">
-                Load more
+              <NavLink to={'/online/service8'}>learn more</NavLink>
               </button>
             </div>
           </div>

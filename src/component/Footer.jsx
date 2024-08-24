@@ -15,9 +15,9 @@ function Footer() {
     <div className="w-full bg-gradient-to-r from-[#1a237e] to-[#283593] px-4 sm:px-6 pt-8 pb-4 text-white">
       <div className="w-full rounded-xl bg-blue-900 flex flex-wrap justify-between p-6 sm:p-8 gap-6">
         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-4">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center w-44 rounded-lg gap-3 bg-white">
             <img src={logo} alt="Logo" className="w-8 h-8 sm:w-10 sm:h-10 mix-blend-multiply" />
-            <p className="text-lg font-semibold">PropsHawk</p>
+            <p className="text-lg text-black  font-semibold">PropsHawk</p>
           </div>
           <p className="text-xs sm:text-sm">
           Stay connected with us on social media for the latest updates, exclusive offers, and a peek into our projects.
@@ -43,12 +43,12 @@ function Footer() {
           <div className="flex items-start gap-2">
             <FaLocationDot className="text-lg sm:text-xl" />
             <p className="text-xs sm:text-sm">
-            123, Rajouri Garden Main Road New Delhi, Delhi 110027
+            C-355 Block c Sector 122 Noida, Uttar Pradesh  201307
             </p>
           </div>
           <div className="flex items-center gap-2">
             <MdCall className="text-lg sm:text-xl" />
-            <span className="text-xs sm:text-sm">+0 12345 67890</span>
+            <span className="text-xs sm:text-sm">+91 7836961596 </span>
           </div>
           <div className="flex items-center gap-2">
             <IoIosMail className="text-lg sm:text-xl" />

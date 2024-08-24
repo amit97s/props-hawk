@@ -31,12 +31,12 @@ function PropAboutHome() {
       </div>
       <div className="w-full lg:w-1/2 h-auto flex flex-col gap-4 p-4 bg-slate-50 lg:px-10">
         <div className="flex items-center gap-3">
-          <img
+          {/* <img
             src={logo}
             alt="Logo"
-            className="w-16 h-16 bg-transparent mix-blend-darken"
-          />
-          <p className="text-lg lg:text-xl font-semibold">About Prophawks</p>
+            className="w-20 h-16 bg-transparent mix-blend-darken"
+          /> */}
+          <p className="text-lg lg:text-4xl font-bold">About Prophawks</p>
         </div>
         <h1 className="text-3xl lg:text-4xl font-extrabold">
           The Leading Real Estate Marketplace
