@@ -225,7 +225,7 @@ function Header() {
               </NavLink>
 
               <li className="relative group cursor-pointer hover:text-blue-500 text-sm flex items-center gap-1">
-  Location
+  Download
   <FaAngleDown />
   <ul className="absolute top-3 rounded-lg left-0 mt-2 w-48 bg-white shadow-lg hidden group-hover:block z-10">
     <li>

@@ -15,10 +15,10 @@ function PropertyLoc() {
       img: noida1,
       name: "Noida",
     },
-    {
-      img: indore,
-      name: "Indore",
-    },
+    // {
+    //   img: indore,
+    //   name: "Indore",
+    // },
   ];
 
   return (

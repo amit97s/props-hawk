@@ -104,17 +104,18 @@ function Login() {
       </section>
 
       <section className="flex justify-center my-10">
-        <div className="w-full max-w-[1280px]">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094343!2d144.96305791531585!3d-37.81362797975159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1f0d241%3A0x5045675218ce6e0!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sin!4v1623140366192!5m2!1sen!2sin"
-            width="1280"
-            height="450"
-            allowFullScreen=""
-            loading="lazy"
-            className="w-full border-0 rounded-lg shadow-lg"
-            title="Google Map"
-          ></iframe>
-        </div>
+      <div className="w-full h-[500px]">  {/* Adjusted height */}
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.146891236681!2d77.39545831531732!3d28.616789282426853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cefee531fd7c3%3A0x672eed1ad4cfe8ab!2sC-355%2C%20Block%20C%2C%20Sector%20122%2C%20Noida%2C%20Uttar%20Pradesh%20201301%2C%20India!5e0!3m2!1sen!2sus!4v1634011893066!5m2!1sen!2sus"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    allowFullScreen=""
+    loading="lazy"
+    title="Location Map"
+  ></iframe>
+</div>
+
       </section>
 
       <Footer />

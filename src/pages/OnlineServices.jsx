@@ -209,7 +209,7 @@ const OnlineServices = () => {
           <div className="mx-auto flex flex-col lg:flex-row items-center gap-4 lg:pl-8 max-w-screen-xl">
             <div className="w-full lg:w-1/2 h-96 bg-gray-200 mt-12 lg:mt-0">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094507!2d144.953736315318!3d-37.81627917975186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1f7e803%3A0xabcb3e6d1e1e29b1!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1634011893066!5m2!1sen!2sau"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.146891236681!2d77.39545831531732!3d28.616789282426853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cefee531fd7c3%3A0x672eed1ad4cfe8ab!2sC-355%2C%20Block%20C%2C%20Sector%20122%2C%20Noida%2C%20Uttar%20Pradesh%20201301%2C%20India!5e0!3m2!1sen!2sus!4v1634011893066!5m2!1sen!2sus"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -218,6 +218,7 @@ const OnlineServices = () => {
                 title="Location Map"
               ></iframe>
             </div>
+
             <form className="mt-6 w-full lg:w-1/2 flex flex-col gap-4">
               <input
                 type="text"
